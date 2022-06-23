@@ -47,9 +47,12 @@
 }
 
 .product-card {
+  position: relative;
   display: flex;
   flex-direction: column;
-  width: 50%;
+  flex: 0 50%;
+  background-color: white;
+  border: 0.5px solid #f7f7f7;
 }
 
 * {
