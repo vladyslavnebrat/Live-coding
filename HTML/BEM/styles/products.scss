@@ -2,11 +2,7 @@
   display: flex;
   flex-direction: row;
   margin-top: 30px;
-  flex-grow: 2;
-
-  @include for-large-up {
-    flex-grow: 3;
-  }
+  flex-shrink: 2;
 }
 
 .product-card {
@@ -18,9 +14,10 @@
   border: 0.5px solid #f7f7f7;
   padding: 25px;
   align-items: center;
+  min-width: 325px;
 
   &____img-wrapper {
-    min-width: 235px;
+    min-width: 325px;
   }
 
   &__info {

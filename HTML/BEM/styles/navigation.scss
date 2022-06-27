@@ -5,6 +5,7 @@
 
   @include for-large-up {
     flex-direction: row;
+    justify-content: space-between;
   }
 
   &__title {
@@ -24,15 +25,12 @@
   &__container {
     display: flex;
     background-color: transparent;
-
-    @include for-large-up {
-      justify-content: right;
-    }
   }
 
   &__filter {
     display: flex;
     flex-direction: column;
+    
     @include for-large-up {
       margin-right: 10px;
     }
