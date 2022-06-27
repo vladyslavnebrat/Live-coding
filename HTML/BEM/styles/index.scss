@@ -2,10 +2,15 @@
 @import 'navigation.scss';
 @import 'products.scss';
 
+html {
+  font-family: Karla,sans-serif;;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   background-color: #f7f7f7;
+  padding: 30px 10px;
 }
